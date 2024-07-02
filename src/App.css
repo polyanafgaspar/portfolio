@@ -1,0 +1,43 @@
+.container {
+  width: 100%;
+  min-height: 87vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 5%;
+}
+
+.container img {
+  max-height: 50vh;
+}
+
+.container p {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.span-orange {
+  color: var(--terceary);
+}
+
+.btn {
+  width: 50%;
+  height: 35px;
+  font-size: 1rem;
+  border: 0;
+  border-radius: 10px;
+  cursor: pointer;
+  align-self: center;
+  margin-top: 10%;
+}
+
+.btn-orange {
+  background-color: var(--terceary);
+  color: var(--white);
+}
+
+.btn-orange:hover {
+  background-color: var(--primary);
+  color: var(--white);
+}

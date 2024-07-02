@@ -1,0 +1,20 @@
+:root {
+  font-family: "Playfair Display", monospace;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --primary: #115ca3;
+  --secundary: rgb(102, 172, 238);
+  --terceary: rgb(221, 124, 68);
+  --black: #111;
+  --white: #fefefe;
+  --gray: #2222;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
